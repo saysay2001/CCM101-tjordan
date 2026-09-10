@@ -30,3 +30,38 @@ Google Cloud Platform (GCP) is particularly strong in Artificial Intelligence, M
 
 I would personally choose Amazon Web Services (AWS) because it offers a wide variety of cloud services and provides flexible options for different types of applications and organizations. Its extensive range of services would also provide more opportunities to learn different areas of cloud computing, including computing, storage, networking, databases, and security.
 
+---
+
+# Equivalent Cloud Services
+
+The following table matches commonly used equivalent services across AWS, Microsoft Azure, and Google Cloud Platform.
+
+| Service Category | AWS | Microsoft Azure | Google Cloud Platform |
+|---|---|---|---|
+| **Virtual Machine** | Amazon EC2 | Azure Virtual Machines | Google Compute Engine |
+| **Object Storage** | Amazon S3 | Azure Blob Storage | Google Cloud Storage |
+| **Identity Management** | AWS IAM | Microsoft Entra ID | Google Cloud IAM |
+| **SQL Database** | Amazon RDS | Azure SQL Database | Cloud SQL |
+| **Kubernetes** | Amazon EKS | Azure Kubernetes Service (AKS) | Google Kubernetes Engine (GKE) |
+
+## Service Comparison Summary
+
+### Virtual Machine
+
+All three cloud providers offer virtual machine services for running operating systems and applications in the cloud. AWS provides **Amazon EC2**, Azure provides **Azure Virtual Machines**, and Google Cloud provides **Google Compute Engine**.
+
+### Object Storage
+
+Object storage services are designed to store files, media, backups, and other unstructured data. The equivalent services are **Amazon S3**, **Azure Blob Storage**, and **Google Cloud Storage**.
+
+### Identity Management
+
+Identity management services control user authentication, permissions, and access to cloud resources. AWS uses **AWS IAM**, Azure uses **Microsoft Entra ID**, and Google Cloud uses **Google Cloud IAM**.
+
+### SQL Database
+
+Managed SQL database services allow organizations to use relational databases without managing all of the underlying infrastructure. AWS provides **Amazon RDS**, Azure provides **Azure SQL Database**, and Google Cloud provides **Cloud SQL**.
+
+### Kubernetes
+
+All three providers offer managed Kubernetes services for deploying and managing containerized applications. AWS provides **Amazon EKS**, Azure provides **Azure Kubernetes Service (AKS)**, and Google Cloud provides **Google Kubernetes Engine (GKE)**.
