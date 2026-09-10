@@ -69,3 +69,33 @@
 | **Client B – University**          | **Microsoft Azure**             | Strong integration with Microsoft technologies                  |
 | **Client C – AI Research Company** | **Google Cloud Platform (GCP)** | Strong AI, ML, and high-performance computing capabilities      |
 | **Client D – Global E-Commerce**   | **Amazon Web Services (AWS)**   | Global infrastructure, high availability, and automatic scaling |
+
+---
+
+# Multi-Cloud Decision Matrix
+
+## Cloud Provider Decision Matrix
+
+| Business Requirement | Recommended Platform | Justification |
+|---|---|---|
+| **Startup Company** | **Amazon Web Services (AWS)** | AWS provides a wide range of scalable services and flexible options that can support a startup with limited resources while allowing it to grow as demand increases. |
+| **Enterprise Organization** | **Amazon Web Services (AWS)** | AWS offers a broad portfolio of enterprise services, global infrastructure, security features, databases, networking, and scalability for large organizations. |
+| **Microsoft Environment** | **Microsoft Azure** | Azure provides strong integration with Microsoft technologies such as Windows Server, Microsoft 365, Microsoft Entra ID, and SQL Server. |
+| **AI / Machine Learning** | **Google Cloud Platform (GCP)** | GCP provides strong artificial intelligence, machine learning, data analytics, and high-performance computing capabilities for developing and deploying AI applications. |
+| **Kubernetes Deployment** | **Google Cloud Platform (GCP)** | GCP provides Google Kubernetes Engine (GKE), a managed Kubernetes service that supports containerized and cloud-native applications. |
+| **Global Web Application** | **Amazon Web Services (AWS)** | AWS provides global infrastructure, multiple Regions and Availability Zones, load balancing, and automatic scaling capabilities suitable for applications serving users worldwide. |
+
+## Decision Matrix Summary
+
+The best cloud platform depends on the organization's specific requirements. AWS is a strong general-purpose choice for startups, enterprises, and global applications because of its broad service portfolio and scalability. Microsoft Azure is the preferred choice for organizations that already depend heavily on Microsoft technologies. Google Cloud Platform is particularly suitable for artificial intelligence, machine learning, data analytics, and Kubernetes-based applications.
+
+## Overall Recommendation
+
+| Business Need | Best Choice |
+|---|---|
+| Startup | **AWS** |
+| Enterprise | **AWS** |
+| Microsoft Technologies | **Microsoft Azure** |
+| Artificial Intelligence / Machine Learning | **Google Cloud Platform** |
+| Kubernetes | **Google Cloud Platform** |
+| Global Web Application | **AWS** |
