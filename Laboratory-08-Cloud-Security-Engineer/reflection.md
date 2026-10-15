@@ -1,1 +1,11 @@
+# Mission Reflection
 
+Completing this Cloud Security Engineer mission helped me understand the importance of protecting servers through proper security configuration. A host-based firewall protects a server by controlling incoming and outgoing network traffic, even if the physical network perimeter has already been breached. It provides another layer of security by allowing only authorized connections and blocking unnecessary access to the system.
+
+Managing open network ports is also critical because every open port can become a possible entry point for attackers. By closing unused ports and allowing only the connections needed by an application, administrators can reduce the server's attack surface and make unauthorized access more difficult. This mission taught me how the Default Deny policy helps strengthen security by blocking incoming traffic unless a specific rule allows it.
+
+In a real enterprise environment, leaving a database port such as MySQL's port 3306 open to the public internet is dangerous because attackers could attempt to exploit vulnerabilities, guess passwords, or gain unauthorized access to sensitive information. Databases often contain confidential customer details and business records, so access should be restricted to trusted application servers and authorized administrators.
+
+This mission also changed my perspective on how easily a server can be compromised. Before completing the activities, I thought that deploying an application and making it accessible were the main priorities. Now, I understand that even a working application can be exposed to security risks if its ports and access rules are not properly configured. Simple mistakes can create opportunities for attackers, which is why security must be considered from the beginning.
+
+With eight completed missions, my GitHub portfolio is becoming a record of my progress in cloud computing and system administration. Each mission allows me to practice technical skills, document commands, and provide screenshots as evidence of my work. I am also learning to explain not only how commands work but why they matter. Although there is still much to learn, I feel more confident in handling basic server configuration and security tasks, and I look forward to improving my skills through future hands-on activities.
