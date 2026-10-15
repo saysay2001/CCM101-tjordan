@@ -1,1 +1,11 @@
+# Mission Reflection
 
+Throughout this laboratory, I learned that automation is important in cloud computing because it helps manage many servers efficiently. When an organization has hundreds of cloud servers, manually performing tasks such as backups, updates, and maintenance takes too much time and effort. Automation makes these tasks faster, more consistent, and less likely to be forgotten.
+
+However, automation also has potential dangers. If a script contains a destructive typo and is scheduled to run on 1,000 servers, it could delete important files, damage configurations, or cause widespread service interruptions. This is why scripts should be carefully reviewed, tested in a safe environment, and monitored before being deployed on a large scale. Automation should make work easier, but it must always be used responsibly.
+
+Writing a Bash script was different from creating a Docker Compose YAML file in Mission 6. A Bash script contains commands that execute step by step to perform tasks, such as creating and compressing backups. In contrast, a Docker Compose YAML file defines how containers, networks, and services should be configured and run together. Both tools help automate work, but they serve different purposes.
+
+From Laboratory 1 to Laboratory 9, my understanding of cloud computing has grown significantly. At first, I viewed cloud computing mainly as a way to access servers and applications over the internet. As I completed the laboratories, I learned about infrastructure, containers, networking, security, monitoring, and automation. I now understand that managing cloud environments requires not only technical knowledge but also careful planning, troubleshooting, and responsibility.
+
+Among the different roles, I enjoyed being a **Cloud Automation Engineer** the most because I liked creating scripts that perform repetitive tasks automatically. It was satisfying to see how a few commands could create backups and schedule them without constant human intervention. This experience helped me appreciate how automation saves time and supports reliable cloud operations. Overall, this laboratory strengthened my interest in learning more about cloud technologies and applying these skills to real-world situations.
